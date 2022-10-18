@@ -3,6 +3,8 @@
   --title-text-color: #ffffff;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
+  --footer-color: #2f303a;
+  --filter-btn-color: #f5f4fa;
 }
 
 body {
@@ -10,51 +12,113 @@ body {
   font-family: roboto;
 }
 
-.logo-main {
-  color: #2196f3;
+ul {
+  list-style: none;
 }
-
+/*logo*/
 .logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.studio-black {
   color: #000000;
-  text-decoration: none;
 }
 
-.site-nav-main {
-  color: var(--accent-color);
-  text-decoration: none;
+.studio-white {
+  color: var(--title-text-color);
 }
-
-.site-nav-main:hover,
-.site-nav-main:focus {
+/*header*/
+.header-link {
   color: var(--primary-text-color);
 }
 
-.site-nav {
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
-
-.site-nav:hover,
-.site-nav:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
 }
-
-.link-email {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-.link-email:hover,
-.link-email:focus {
-  color: var(--primary-text-color);
-}
-
-.link-phone {
+.contact-header {
   color: var(--secondary-text-color);
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+  background-color: var(--primary-text-color);
+}
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+.hero-btn {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/*Особливості*/
+.features-subtitle {
+}
+
+.features-text {
+  color: var(--secondary-text-color);
+}
+
+/*Чим ми займаємося*/
+.work-title {
+}
+
+/*Наша команда*/
+.team-text {
+  color: var(--secondary-text-color);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer-address {
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
-.link-phone:hover,
-.link-phone:focus {
+.footer-address:hover,
+.footer-address:focus {
   color: var(--accent-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/*Портфоліо- Фільтр */
+.filter-btn {
+  color: var(--primary-text-color);
+  background-color: var(--filter-btn-color);
+  cursor: pointer;
+}
+.filter-btn:hover {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+
+/*Projects */
+.project-text {
+  color: var(--secondary-text-color);
 }
