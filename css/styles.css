@@ -1,0 +1,60 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #ffffff;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: roboto;
+}
+
+.logo-main {
+  color: #2196f3;
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav-main {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.site-nav-main:hover,
+.site-nav-main:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
+.link-email {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.link-email:hover,
+.link-email:focus {
+  color: var(--primary-text-color);
+}
+
+.link-phone {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.link-phone:hover,
+.link-phone:focus {
+  color: var(--accent-color);
+}
