@@ -93,7 +93,6 @@ body {
 
 /*Особливості*/
 .features-subtitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -108,17 +107,11 @@ body {
 }
 
 /*Чим ми займаємося*/
-/*.work-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+.work-title {
 }
 
 /*Наша команда*/
 .title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -133,11 +126,47 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team {
+  background-color: var(--filter-btn-color);
+}
+
 .team-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Портфоліо- Фільтр */
+.filter-btn {
+  color: var(--primary-text-color);
+  background-color: var(--filter-btn-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+
+/*Projects */
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -147,6 +176,7 @@ body {
 }
 
 .address-list {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -170,37 +200,4 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
-}
-
-/*Портфоліо- Фільтр */
-.filter-btn {
-  color: var(--primary-text-color);
-  background-color: var(--filter-btn-color);
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.filter-btn:hover,
-.filter-btn:focus {
-  color: var(--title-text-color);
-  background-color: var(--accent-color);
-}
-
-/*Projects */
-.project-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.project-text {
-  color: var(--secondary-text-color);
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
 }
